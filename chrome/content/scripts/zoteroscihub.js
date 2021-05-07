@@ -170,7 +170,6 @@ Zotero.Scihub = {
 		var url2 = Zotero.Scihub.generateItemUrl(item);
 		var pdf_url = "";
 		var req = new XMLHttpRequest();
-		var url = url2.replace(".tw",".do");
 
 		Zotero.debug('Opening ' + url);
 		if(url != "") {
